@@ -28,7 +28,7 @@ if st.button("🔍 Predict Weather"):
         }
 
         try:
-            response = requests.post(api_url, json=payload, headers=headers)
+            response = requests.post(https://bamsrad.us-east-2.aws.modelbit.com/v1/weather_api/my_new_branch/latest, json=payload, headers=headers)
             response.raise_for_status()
             result = response.json()
             st.success(f"✅ Prediction: **{result}**")
