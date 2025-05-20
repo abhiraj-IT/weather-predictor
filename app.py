@@ -14,7 +14,7 @@ wind = st.number_input("🌬️ Wind Speed (km/h)", min_value=0.0, max_value=300
 # Predict button
 if st.button("🔍 Predict Weather"):
     with st.spinner("Calling the ML model on Modelbit..."):
-        api_url = "https://<your-modelbit-username>.modelbit.com/v1/weather_api/latest"
+        api_url = "https://bamsrad.us-east-2.aws.modelbit.com/v1/weather_api/latest"
 
         headers = {
             "Authorization": f"Bearer {st.secrets['API_KEY']}",
