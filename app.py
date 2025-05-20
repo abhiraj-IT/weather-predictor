@@ -17,7 +17,7 @@ if st.button("🔍 Predict Weather"):
         api_url = "https://bamsrad.us-east-2.aws.modelbit.com/v1/weather_api/latest"
 
         headers = {
-            "Authorization": f"Bearer {st.secrets['miEZHaNjj+:msJeGibAaWlnjIB3rp2K8XxdgYGmPG8AI7PSQwBFkijJ8=']}",
+            "Authorization": f"Bearer {st.secrets['miMkKNvOUw:mshm46X6ia1FT6KJWJiMJ1b+amm3vbH+uzXakq/8I+ixQ=']}",
             "Content-Type": "application/json"
         }
 
